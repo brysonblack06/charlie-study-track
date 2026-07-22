@@ -78,4 +78,4 @@ dev-project-alfa/
 
 - [Early application wireframe](https://github.com/brysonblack06/charlie-study-track/wiki/StudyTrack-Wireframe)
 - [CHARLIE planning issues](https://github.com/brysonblack06/charlie-study-track/issues?q=state%3Aopen%20label%3Aplan)
-- [Sprint 99 future improvements](PASTE-MILESTONE-URL-HERE)
+- [Sprint 99 future improvements](https://github.com/brysonblack06/charlie-study-track/milestone/1)
