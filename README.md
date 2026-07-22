@@ -51,6 +51,12 @@ have worked on.
 - GitHub Pages
 - Visual Studio Code
 
+## Project Planning
+
+- [Early application wireframe](https://github.com/brysonblack06/charlie-study-track/wiki/StudyTrack-Wireframe)
+- [CHARLIE planning issues](https://github.com/brysonblack06/charlie-study-track/issues?q=state%3Aopen%20label%3Aplan)
+- [Sprint 99 future improvements](https://github.com/brysonblack06/charlie-study-track/milestone/1)
+
 ## Directory Structure
 
 ```text
@@ -73,9 +79,3 @@ dev-project-alfa/
 │
 ├── index.html
 └── README.md
-
-## Project Planning
-
-- [Early application wireframe](https://github.com/brysonblack06/charlie-study-track/wiki/StudyTrack-Wireframe)
-- [CHARLIE planning issues](https://github.com/brysonblack06/charlie-study-track/issues?q=state%3Aopen%20label%3Aplan)
-- [Sprint 99 future improvements](https://github.com/brysonblack06/charlie-study-track/milestone/1)
