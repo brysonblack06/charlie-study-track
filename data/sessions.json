@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "subject": "Java Programming",
+        "date": "2026-07-18",
+        "duration": 60,
+        "type": "Exam Preparation",
+        "notes": "Reviewed classes, methods, and ArrayList concepts.",
+        "favorite": true,
+        "tags": [
+            "java",
+            "programming"
+        ]
+    },
+    {
+        "id": 2,
+        "subject": "Digital Forensics",
+        "date": "2026-07-19",
+        "duration": 45,
+        "type": "Lab Work",
+        "notes": "Reviewed Autopsy artifacts and evidence tagging.",
+        "favorite": false,
+        "tags": [
+            "forensics",
+            "autopsy"
+        ]
+    },
+    {
+        "id": 3,
+        "subject": "Statistics",
+        "date": "2026-07-20",
+        "duration": 30,
+        "type": "Homework",
+        "notes": "Practiced probability and variance calculations.",
+        "favorite": false,
+        "tags": [
+            "statistics",
+            "math"
+        ]
+    }
+]

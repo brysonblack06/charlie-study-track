@@ -359,3 +359,29 @@ $(document).ready(function () {
 
     displaySessions();
 });
+
+/**
+ * Loads starter study-session records from the JSON file.
+ * Falls back to an empty array when the request fails.
+ */
+async function fetchStarterSessions() {
+    try {
+        const response = await fetch("data/sessions.json");
+
+        if (!response.ok) {
+            throw new Error(
+                `Unable to load sessions: ${response.status}`
+            );
+        }
+
+        const sessions = await response.json();
+
+        console.log("Starter JSON sessions loaded:", sessions);
+
+        return sessions;
+    } catch (error) {
+        console.error("Starter session fetch failed:", error);
+
+        return [];
+    }
+}
