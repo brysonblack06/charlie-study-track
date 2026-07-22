@@ -1,0 +1,111 @@
+/*
+    StudyTrack
+    Dev Project ALFA
+
+    This file contains all custom styling for the project.
+*/
+
+:root {
+    --primary-color: #1d4ed8;
+    --dark-color: #212529;
+    --light-background: #f8f9fa;
+    --border-color: #dee2e6;
+}
+
+body {
+    min-height: 100vh;
+    color: #212529;
+    background-color: #ffffff;
+}
+
+main {
+    min-height: 75vh;
+}
+
+.hero-section {
+    background: linear-gradient(
+        135deg,
+        #eef4ff 0%,
+        #ffffff 100%
+    );
+}
+
+.content-container {
+    max-width: 900px;
+    padding: 2rem;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 0.75rem;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.06);
+}
+
+.summary-card {
+    background-color: #ffffff;
+    border-left: 5px solid var(--primary-color);
+    border-radius: 0.75rem;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.08);
+}
+
+.session-card {
+    height: 100%;
+    border: 1px solid var(--border-color);
+    border-radius: 0.75rem;
+    box-shadow: 0 0.2rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+.session-card .card-title {
+    overflow-wrap: anywhere;
+}
+
+.form-message-success {
+    padding: 0.75rem;
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border: 1px solid #badbcc;
+    border-radius: 0.375rem;
+}
+
+.form-message-error {
+    padding: 0.75rem;
+    color: #842029;
+    background-color: #f8d7da;
+    border: 1px solid #f5c2c7;
+    border-radius: 0.375rem;
+}
+
+.footer-link {
+    color: #ffffff;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    color: #b6d4fe;
+}
+
+.table-responsive {
+    border-radius: 0.5rem;
+}
+
+.admin-summary-card {
+    height: 100%;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 0.75rem;
+}
+
+.sign-in-card {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+@media (max-width: 575.98px) {
+    .content-container {
+        padding: 1.25rem;
+    }
+
+    .hero-section h1 {
+        font-size: 2.25rem;
+    }
+}
