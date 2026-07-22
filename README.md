@@ -9,7 +9,7 @@ study time and saves entries in the browser using localStorage.
 
 ## Live Application
 
-🔗 [Open StudyTrack](https://brysonblack06.github.io/dev-project-alfa/)
+🔗 [Open StudyTrack](https://brysonblack06.github.io/charlie-study-track/)
 
 ## Source Code
 
